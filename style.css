@@ -1,9 +1,9 @@
-/* Make all font on my webpage become Arial */
+/* Change the font */
 body {
 	font-family: Arial;
 }
 
-/* Style the table */
+/* Customize the table */
 table {
 	text-align: center;
 	margin-left: auto;
@@ -11,13 +11,17 @@ table {
   width: 100%;
 }
 
-/* Draw the table borders */
+#header {
+  background-color: lightblue;
+}
+
+/* Create borders for table */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-/* Centered the h2 on the left */
+/* Change align of h2 headers */
 h2 {
 	text-align: left;
 }
@@ -27,18 +31,12 @@ h2 {
 	text-align: center;
 }
 
-/* the color of the header in the table */
-#header {
-	background-color: lightblue;
-}
-
-/* Use FlexBox to create column */
+/* Use FlexBox to create two columns and customize*/
 .container {
   display: flex;
   align-items: center;
 }
 
-/* Split two columns equally */
 .left {
   flex: 50%;
 }
@@ -47,7 +45,7 @@ h2 {
   flex: 50%;
 }
 
-/* Customize the image*/
+/* Customize the image */
 img {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -72,7 +70,7 @@ circle {
   fill: seagreen;
 }
 
-/* Change the boarder of circle when mouse hovers over */
+/* Change the border of circle when mouse hovers over */
 circle:hover {
   stroke: lightcoral;
   stroke-width: 10px;
