@@ -1,2 +1,63 @@
 html {font-family: Arial;
 }
+
+/*task abstraction div style*/
+
+h1 {
+	text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  flex: 50%;
+}
+
+.right {
+  flex: 50%;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 9px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+/* Use the flex to space circles and rectangles evenly */
+#decoration {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  align-items: center;
+}
+
+/* Style the circle */
+circle {
+  opacity: 50%;
+  fill: seagreen;
+}
+
+/* Change the boarder of circle when mouse hovers over */
+circle:hover {
+  stroke: lightcoral;
+  stroke-width: 10px;
+}
+
+/* Style the rectangle */
+rect {
+  stroke: lightblue;
+  stroke-width: 8px;
+  fill: lightsalmon;
+}
+
+/* Change the color of rectangle when mouse hoveres over */
+rect:hover {
+  fill: lightcoral;
+}
