@@ -1,2 +1,9 @@
-html {font-family: Arial;
+body {
+	font-family: Arial;
+	text-align: center;
+
 }
+
+
+
+/* add a table with a blue header row */
