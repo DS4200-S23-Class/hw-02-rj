@@ -23,10 +23,6 @@ h2 {
 	background-color: lightblue;
 }
 
-h1 {
-	text-align: center;
-}
-
 .container {
   display: flex;
   align-items: center;
@@ -40,6 +36,7 @@ h1 {
   flex: 50%;
 }
 
+/* Customize the image*/
 img {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -58,7 +55,7 @@ img {
   align-items: center;
 }
 
-/* Style the circle */
+/* Customize circle */
 circle {
   opacity: 50%;
   fill: seagreen;
@@ -70,14 +67,14 @@ circle:hover {
   stroke-width: 10px;
 }
 
-/* Style the rectangle */
+/* Customize rectangle */
 rect {
   stroke: lightblue;
   stroke-width: 8px;
   fill: lightsalmon;
 }
 
-/* Change the color of rectangle when mouse hoveres over */
+/* Change the color of rectangle when mouse hovers over */
 rect:hover {
   fill: lightcoral;
 }
