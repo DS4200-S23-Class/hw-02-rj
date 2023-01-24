@@ -1,9 +1,24 @@
 body {
 	font-family: Arial;
-	text-align: center;
+}
 
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 
+h2 {
+	text-align: left;
+}
 
-/* add a table with a blue header row */
+.center{
+	text-align: center;
+}
+
+#header {
+	background-color: lightblue;
+}

@@ -12,10 +12,10 @@
 
     <div id='data-abstraction'>
         <div class='info'>
-            <h1>Dataset Types</h1>
+            <h1 class='center'>Dataset Types</h1>
             <table>
 
-                <tr>
+                <tr id='header'>
                     <th>Data</th>
                     <th>Link</th>
                     <th>Dataset Type</th>
@@ -24,7 +24,7 @@
                 <tr>
                     <td>Airports</td>
                     <td><a href="data/Airports.csv">Airports</a></td>
-                    <td>Tables</td>
+                    <td>Geometry</td>
                 </tr>
 
                 <tr>
@@ -35,16 +35,76 @@
 
                 <tr>
                     <td>UFO</td>
-                    <td><a href="data/UFO.csv">sUFO</a></td>
+                    <td><a href="data/UFO.csv">UFO</a></td>
                     <td>Tables</td>
                 </tr>
             </table>
 
+        <div class='info'>
+            <h1 class='center'>Data Types</h1>
+                <h2>UFO</h2>
+                    <ul>
+                        <li>row: item</li>
+                        <li>'datetime' column: attribute</li>
+                            <ul>
+                                <li>ordered quantitative, sequential</li>
+                            </ul>
+                        <li>'city' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li>'state' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li>'country' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li>'shape' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li>'duration (seconds)' column: attribute</li>
+                            <ul>
+                                <li>ordered quantitative, sequential</li>
+                            </ul>
 
-    <h3>Acknowledgements</h3>
+                    </ul>
+                <h2>Airports</h2>
+                    <ul>
+                        <li>row: item</li>
+                        <li>'AIRPORT_NAME' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li>'LATITUDE' column: position</li>
+                        <li>'LONGITUDE' column: position</li>
+                    </ul>
+                <h2>Google-Web</h2>
+                    <ul>
+                        <li>row: link</li>
+                        <li>'FromNodeId' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+                        <li> 'ToNodeId' column: attribute</li>
+                            <ul>
+                                <li>categorial</li>
+                            </ul>
+
+        </div>
+
+
+    <h2 class='center'>Acknowledgements</h2>
     <div>
         <ul>
             <li>https://www.w3schools.com/html/html_links.asp</li>
+            <li>https://www.w3schools.com/howto/howto_css_table_center.asp</li>
+            <li>https://www.w3schools.com/graphics/svg_intro.asp</li>
+            <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+            <li>https://www.w3schools.com/html/html_images.asp</li>
+            <li>https://www.w3schools.com/howto/howto_css_two_columns.asp</li>
         </ul>
     </div>
 </body>
