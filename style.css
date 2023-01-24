@@ -1,33 +1,44 @@
+/* Make all font on my webpage become Arial */
 body {
 	font-family: Arial;
 }
 
+/* Style the table */
 table {
-	border-collapse: collapse;
 	text-align: center;
 	margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+  margin-right: auto;
+  width: 100%;
 }
 
+/* Draw the table borders */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
 
+/* Centered the h2 on the left */
 h2 {
 	text-align: left;
 }
 
+/* Centered the header */
 .center{
 	text-align: center;
 }
 
+/* the color of the header in the table */
 #header {
 	background-color: lightblue;
 }
 
+/* Use FlexBox to create column */
 .container {
   display: flex;
   align-items: center;
 }
 
+/* Split two columns equally */
 .left {
   flex: 50%;
 }
