@@ -15,6 +15,11 @@ table {
   background-color: lightblue;
 }
 
+/* change the color of paragraph */
+p {
+  color: midnightblue;
+}
+
 /* Create borders for table */
 table, th, td {
   border: 1px solid black;
@@ -40,6 +45,7 @@ h2 {
 .left {
   flex: 50%;
 }
+
 
 .right {
   flex: 50%;
