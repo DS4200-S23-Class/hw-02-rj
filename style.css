@@ -31,7 +31,7 @@ h2 {
 	text-align: center;
 }
 
-/* Use FlexBox to create two columns and customize*/
+/* Use FlexBox to create two columns and customize */
 .container {
   display: flex;
   align-items: center;
