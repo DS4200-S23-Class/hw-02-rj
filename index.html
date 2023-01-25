@@ -14,6 +14,7 @@
     <!-- data abstraction -->
     <div id='data-abstraction'>
 
+        <!-- dataset types -->
         <div class='info'>
             <h1 class='center'>Dataset Types</h1>
 
@@ -44,6 +45,7 @@
                 </tr>
             </table>
 
+        <!-- data types -->
         <div class='info'>
             <h1 class='center'>Data Types</h1>
 
@@ -113,7 +115,7 @@
 
             <!-- create the left column with vis1 -->
             <div class='left'>
-                <img src="img\vis1.png" alt="Daily maximum temperatures in Vancouver">
+                <img src="img/vis1.png" alt="Daily maximum temperatures in Vancouver">
                 <p>High-level task: Consume &rarr; Present.
                     <br>The purpose of this visualization is presenting information and giving audience an overview of daily maximum temperatures in Vancouver from 1979 to 2021. The information is presented directly to us in the graph. As indicating 'Last 3 days' as red, the information is clearly presented to the audience. 
                 </p>
@@ -123,25 +125,26 @@
                 <p>Low-level task: Query &rarr; Compare.
                     <br>From the graph, we are able to compare the temperature overall in Vancouver from 1979 to 2021. We are able to compare across years, and also compare the last 3 days' temperatures with the highest temperature over the 42-year period. 
                 </p>
-                <p>Target(s): Attributes &rarr; Many &rarr; Correlation.
-                    <br>By looking at the graph, we can know the correlation between time and temperatures. 
+                <p>Target(s): Attributes &rarr; Many &rarr; Correlation / All data &rarr; Outliers.
+                    <br>By looking at the graph, we can know the correlation between time (months) and temperatures. 
+                    <br>There are also outliers, the red three points, which indicating the temperature of last three days having the unusual high temperatures comparing to the recorded temperatures over 42 years.
                 </p>
             </div>
 
             <!-- create the right column with vis2 -->
             <div class='right'>
-                <img src="img\vis2.png" alt="Number of times daily mean temperatures were 20 degrees Fahrenheit above normal">
+                <img src="img/vis2.png" alt="Number of times daily mean temperatures were 20 degrees Fahrenheit above normal">
                 <p>High-level task: Consume &rarr; Present.
-                    <br>The purpose of this visualization is to present information and communicate with the viewers. Hence, this visualization shows number of times daily mean temperatures in Seattle and Portland were 20 degrees Fahrenheit above normal across time.
+                    <br>The purpose of this visualization is to present information and communicate with the viewers. This visualization presents the information of the number of times daily mean temperatures in Seattle and Portland were 20 degrees Fahrenheit above normal across time.
                 </p>
-                <p>Medium-level task: Search &rarr; Lookup.
-                    <br>In this visualization, both target and location are known. The target is the number of times daily mean temperatures were 20 degrees Fahrenheit above normal. This visualization is compare between Seattle and Portland, which means the location is also known.
+                <p>Medium-level task: Search &rarr; Browse.
+                    <br>We don't really know the target - which year the mean temperature is highest, which city have higher number of times above 20 degrees, or how many times in one time period? However, in this visualization, location is known. We know we need to look at this graph. This visualization is compare between Seattle and Portland, which means the location is also known.
                 </p>
                 <p>Low-level task: Query &rarr; Compare.
-                    <br>The visualization is comparing between Portland and Seattle by looking at their number of times daily mean temperatures were 20 degress Fahrenheit above normal from 1990 to 2020.
+                    <br>The visualization is comparing between the two cities, Portland and Seattle, by looking at their number of times daily mean temperatures were 20 degress Fahrenheit above normal from 1990 to 2020.
                 </p>
                 <p>Target(s): Attributes &rarr; Many &rarr; Similarity.
-                    <br>Their target is comparing number of times daily mean temperatures were 20 degress Fahrenheit above normal between Portland and Seattle over time.
+                    <br>Their target is comparing over the similarities of number of times daily mean temperatures were 20 degress Fahrenheit above normal between Portland and Seattle over time.
                 </p>
             </div>
 
